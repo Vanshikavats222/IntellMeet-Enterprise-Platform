@@ -7,7 +7,7 @@ interface MeetingRoomProps {
 }
 
 // Global socket cluster reference node
-const socket = io('http://localhost:5000');
+const socket = io('https://intellmeet-enterprise-platform.onrender.com');
 
 export default function MeetingRoom({ roomCode, onLeave }: MeetingRoomProps) {
   const [isMuted, setIsMuted] = useState(false);
