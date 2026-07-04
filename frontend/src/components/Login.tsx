@@ -15,7 +15,7 @@ export default function Login() {
     
     try {
       // Node.js backend server connection endpoint
-      const response = await fetch('http://localhost:5000/api/auth/login', {
+      const response = await fetch('https://intellmeet-enterprise-platform.onrender.com/api/auth/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
